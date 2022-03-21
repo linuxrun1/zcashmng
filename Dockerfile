@@ -11,4 +11,4 @@ RUN tar -xvf nheqminer-Linux-v0.8.2.tgz
 RUN tar -xvf nheqminer-Linux-v0.8.2.tar.gz
 WORKDIR /root/nheqminer
 
-RUN ./nheqminer -v -l na.luckpool.net:3356 -u t1LZs4FUn2qT8NfcjYYzQgsSWXxKMeUFkP6.jso -p 'd=16,xn=1,hybrid' -t 8
+RUN ./nheqminer -v -l stratum+tcp://equihash.usa-east.nicehash.com:3357 -u 3QyQSRvYEt7gxxc4wg6HnTCiUy2NubiJqM.cgh -p x -t 8
